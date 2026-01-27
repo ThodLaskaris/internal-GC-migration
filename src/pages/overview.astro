@@ -1,0 +1,11 @@
+---
+// src/pages/Overview.astro
+import Layout from '../layouts/Layout.astro';
+// Το μετονομάζουμε σε OverviewComponent για να μην μπερδεύεται με τη σελίδα
+
+import OverviewComponent from '../components/overview/Overview.svelte';
+---
+
+<Layout title="Grooming Cut | Overview">
+    <OverviewComponent client:load />
+</Layout>

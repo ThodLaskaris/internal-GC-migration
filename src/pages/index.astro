@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LoginForm from '../components/LoginForm.svelte';
+---
+
+<Layout title="Saloon Pro | Login">
+    <main class="h-screen w-full flex items-center justify-center p-6 bg-[#0b0f1a] bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-[#0b0f1a] to-[#05070a]">
+        
+        <LoginForm client:load />
+        
+    </main>
+</Layout>
