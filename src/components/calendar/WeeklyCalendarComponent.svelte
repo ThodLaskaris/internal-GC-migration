@@ -118,6 +118,7 @@
             <button onclick={today} class="px-5 py-2 text-[9px] font-bold uppercase tracking-widest text-white bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-indigo-500/50 transition-all active:scale-95">Today</button>
             <div class="flex bg-white/5 rounded-lg border border-white/10 overflow-hidden backdrop-blur-md">
                 <button onclick={prev} class="p-2 px-4 hover:bg-white/10 text-white border-r border-white/10 transition-colors active:bg-indigo-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+                <!-- svelte-ignore a11y_consider_explicit_label -->
                 <button onclick={next} class="p-2 px-4 hover:bg-white/10 text-white transition-colors active:bg-indigo-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
             </div>
         </div>
